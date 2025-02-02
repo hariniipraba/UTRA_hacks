@@ -75,7 +75,7 @@ void loop() {
     read_distance();
 
     mv_forward();
-if (distance<20){
+if (distance<30){
   STOP();
     if (colour == 4444) {
         turn_left(90);
